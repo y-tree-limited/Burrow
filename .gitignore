@@ -5,7 +5,6 @@ dist
 log
 .idea
 *.cov
-Burrow
 Burrow.exe
 Burrow.iml
 tmp
