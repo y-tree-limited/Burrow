@@ -27,11 +27,6 @@ pipeline {
           }
         }
       }
-      post {
-          always {
-              junit '**/test-results/test/*.xml'
-          }
-      }
     }
     stage('Build Release') {
       when {
