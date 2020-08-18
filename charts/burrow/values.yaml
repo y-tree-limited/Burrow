@@ -31,7 +31,7 @@ resources:
     cpu: 800m
     memory: 512Mi
 
-probePath: /
+probePath: /v3/kafka
 livenessProbe:
   initialDelaySeconds: 180
   periodSeconds: 10
